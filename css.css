@@ -130,6 +130,20 @@ body {
 .thumbnail-caption {
     -webkit-margin-before: 5px;
     margin-bottom: 0;
+    text-align: left;
+    font-weight: 500;
+}
+
+.thumbnail-cost {
+    font-weight: 300;
+    margin-right: 50px;
+    opacity: .45;
+    font-size: .75em;
+}
+
+.thumbnail-cost:before {
+    content: '';
+    margin-right: 30px;
 }
 
 .coming-soon {
@@ -170,8 +184,15 @@ body {
     opacity: .45;
 }
 
-.description {
+.cost {
+    font-weight: 500;
+    line-height: 1em;
+    font-size: 18px;
     margin-top: 20px;
+}
+
+.description {
+    margin-top: 10px;
     width: 60%;
     display: block;
     line-height: 1.4em;
