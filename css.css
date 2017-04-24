@@ -98,9 +98,9 @@ body {
 }
 
 .products-grid a {
-    margin: 0 1.5% 4vh 1.5%;
+    margin: 0 2% 4.5vh 2%;
     width: 20vw;
-    flex: 1 1 30%;
+    flex: 1 1 25%;
     min-width: 200px;
     /*    max-width: 371px;*/
     color: black;
@@ -128,7 +128,7 @@ body {
 }
 
 .thumbnail-caption {
-    -webkit-margin-before: 5px;
+    -webkit-margin-before: 15px;
     margin-bottom: 0;
     text-align: left;
     font-weight: 500;
@@ -187,7 +187,6 @@ body {
 .cost {
     font-weight: 500;
     line-height: 1em;
-    font-size: 18px;
     margin-top: 20px;
 }
 
